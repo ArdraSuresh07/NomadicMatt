@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nomadic Matt</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- Favicon -->
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc34d5DAWpIUnrNmhyX7Bp50WJoPBL0IusoYIPqB7X7g&s">
+    <!-- Fontawsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,700&family=Poppins:ital,wght@0,300;1,400;1,500&family=Titillium+Web:ital,wght@0,400;0,600;1,300&display=swap" rel="stylesheet">
+
+
+<style>
+    /* Add custom styles if needed */
+    .image{
+      position: relative;
+      width: 100%;
+    }
+
+    .overlay-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #fff; /* Set text color */
+      font-size: 24px; /* Set font size */
+      font-weight: bold; /* Set font weight */
+    }
+
+    .viewmore{
+    background: #fff;
+    border-radius: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+    display: table;
+    clear: both;
+    margin: 0 auto;
+    border: 1px solid #000;
+
+    /* .navbar-brand-container {
+      position: relative;
+    }
+
+    .additional-text {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      color: #fff; /* Text color */
+      /* text-align: center;
+     */ */
+}
+  </style>
+
+
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="https://assets-global.website-files.com/63d1baf79ce0eb802868785b/63d1baf89ce0ebfdc468845b_nomadic%20matt%20how%20to%20be%20a%20travel%20hacker.jpg"height="150px" alt="">
+          </a>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+              <li class="nav-item ">
+                <h5><a class="nav-link " href="#about">About</a></h5>
+              </li>
+              <li class="nav-item">
+                <h5><a class="nav-link " href="#blog">Blog</a></h5>
+              </li>
+              <li class="nav-item">
+                <h5><a class="nav-link " href="#">Travel Tips</a></h5>
+              </li> 
+              <li class="nav-item">
+                <h5><a class="nav-link " href="#destination">Destinations</a></h5>
+              </li>              
+              <li class="nav-item">
+                <h5><a class="nav-link " href="#">Resources</a></h5>
+              </li>
+              <li class="nav-item">
+                <h5><a class="nav-link " href="#books">Books</a></h5>
+              </li>
+              <li class="nav-item">
+                <h5><i class="fa-solid fa-cart-shopping"></i></h5>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search This Site" aria-label="Search">
+              </form>
+              <div>
+                <a href="" class="me-4 text-reset">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </div>
+          </div>
+        </div>
+      </nav>
+      <!-- Home -->
+      <div class="image">
+        <img src="https://i0.wp.com/thatanxioustraveller.com/wp-content/uploads/2019/11/matt_africa5-1-scaled.jpg?resize=1100%2C734&ssl=1" width="100%" alt="image">
+        <div class="overlay-text">
+            <h1>Travel smarter, cheaper, longer</h1>
+            <h2>Where do you want to go?</h2>
+            <form class="overlay-form">
+                <!-- Your form fields go here -->
+                <div class="form-group">
+                  <label for="exampleFormControlInput1"></label>
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Find your destination">
+                </div>
+              </form>
+            <h4>Popular Searches:<a href="https://www.nomadicmatt.com/travel-guides/southeast-asia-travel-tips/" class="text-white"> Southeast Asia,</a>
+                <a href="https://www.nomadicmatt.com/travel-guides/europe-travel-tips/">Europe,</a> <a href="https://www.nomadicmatt.com/travel-credit-cards/">travel hacking,</a><a href="https://www.nomadicmatt.com/travel-insurance/"> insurance,</a><a href="https://www.nomadicmatt.com/travel-guides/france-travel-tips/paris/">Paris</a></h4>
+        </div>
+    </div>
+    
+
+    <!-- Get my best tips1 -->
+    <div class="row bg-primary">
+        <div class="col-1"></div>
+        <div class="col-3">
+            <h3>GET MY BEST TIPS SENT STRAIGHT TO YOU!</h3>
+        </div>
+        <div class="col-3">
+            <form class="overlay-form">
+                <div class="form-group ">
+                  <label for="exampleFormControlInput1"></label>
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="First Name">
+                </div>
+              </form>
+        </div>
+        <div class="col-3">
+            <form class="overlay-form">
+                <div class="form-group">
+                  <label for="exampleFormControlInput1"></label>
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Email Address">
+                </div>
+              </form>
+        </div>
+        <div class="col-1">
+            <button type="submit" class="btn btn-success">SEND ME TIPS</button>
+        </div>
+        <div class="col-1"></div>
+    </div>
+
+    <!-- Latest from the blog -->
+    <div id="blog" class="row text-center mb-5 mt-5">
+        <div class="col">
+            <h1>Latest from the Blog</h1>
+        </div>
+    </div>
+
+    <!-- blog images -->
+    <!-- first row -->
+    <div class="row mb-5 ms-5 me-5">
+        <div class="col-4">
+            <img src="https://www.nomadicmatt.com/wp-content/uploads/2024/01/europe_nomad-760x440.jpeg"width="350px" alt="">
+            <h4><a href="https://www.nomadicmatt.com/travel-blogs/digital-nomad-europe-tips/" class="text-black">HOW TO BE A DIGITAL NOMAD IN EUROPE</a></h4>
+        </div>
+        <div class="col-4">
+            <img src="https://www.nomadicmatt.com/wp-content/uploads/2024/01/costaricacar1-760x440.jpeg"width="350px" alt="">
+            <h4><a href="https://www.nomadicmatt.com/travel-blogs/renting-a-car-costa-rica-tips/" class="text-black">THE ULTIMATE GUIDE TO RENTING A CAR IN COSTA RICA</a></h4>
+        </div>
+        <div class="col-4">
+            <img src="https://www.nomadicmatt.com/wp-content/uploads/2024/01/oaxacahotel2-760x440.jpeg"width="350px" alt="">
+            <h4><a href="https://www.nomadicmatt.com/travel-blogs/best-hotels-oaxaca/" class="text-black">THE 5 BEST HOTELS IN OAXACA</a></h4>
+        </div>
+    </div>
+    <!-- second row -->
+    <div class="row ms-5 me-5 mb-5">
+        <div class="col-4">
+            <img src="https://www.nomadicmatt.com/wp-content/uploads/2024/01/besthostelscusco-760x440.jpg"width="350px" alt="">
+            <h4><a href="https://www.nomadicmatt.com/travel-blogs/best-hostels-cusco/" class="text-black">THE 6 BEST HOSTELS IN CUSCO</a></h4>
+        </div>
+        <div class="col-4">
+            <img src="https://www.nomadicmatt.com/wp-content/uploads/2024/01/cspreview-760x440.jpg"width="350px" alt="">
+            <h4><a href="https://www.nomadicmatt.com/travel-blogs/chase-sapphire-preferred-review/" class="text-black">THE CHASE SAPPHIRE PREFERRED REVIEW</a></h4>
+        </div>
+        <div class="col-4">
+            <img src="https://www.nomadicmatt.com/wp-content/uploads/2024/01/IMTreview-760x440.jpg"width="350px" alt="">
+            <h4><a href="https://www.nomadicmatt.com/travel-blogs/insuremytrip-review/" class="text-black">INSUREMYTRIP TRAVEL INSURANCE REVIEW</a></h4>
+        </div>
+    </div>
+
+    <!-- view more -->
+    <div class="viewmore text-center mb-5">
+        <h1><button type="submit" class="btn ">VIEW MORE >></button></h1>
+    </div>
+
+    <!-- About -->
+    <div id="about" class="row bg-light mb-5">
+        <div class="col-1"></div>
+        <div class="col-6">
+            <h2>About Nomadic Matt</h2>
+            <img src="https://media.nomadicmatt.com/siteimages/matt-home.jpg"width="600px" alt="">
+            <p>Welcome! Every day I wake up with one goal in mind: “How can I help other people travel better for less?” It’s my mission now to help travelers like you to realize their travel dreams.</p>
+
+            <p>Since 2008, I’ve helped millions of people save money, travel more, and have a more authentic experience in the destinations they visit.</p>
+                
+            <p>This website has been featured in major media time and time again because it’s got the best budget advice out there. My goal is to make you a smarter traveler so you can go where you want, as often as they want.</p>
+
+            <a href="" style="color: rgb(24, 175, 240);">Learn more about my story >>></a>
+        </div>
+        <div class="col-4">
+            <h2>Start Planning Your Trip</h2>
+            <ul>
+                <li><a href="">How to Find Cheap Flights</a></li>
+                <li><a href="">How to Find Cheap Accommodation</a></li>
+                <li><a href="">How to Choose a Backpack</a></li>
+                <li><a href="">17 Steps for Planning a Trip</a></li>
+                <li><a href="">My Ultimate Packing Guide</a></li>
+                <li><a href="">How to Buy Travel Insurance</a></li>
+                <li><a href="">11 Tips for New Travelers</a></li>
+                <li><a href="">My Favorite Hostels</a></li>
+                <li><a href="">Solo Female Travel Tips</a></li>
+                <li><a href="">How to Pick the Right Travel Credit Card</a></li>
+                <li><a href="">14 Travel Scams to Avoid</a></li>
+                <li><a href="">15 Ways to Work Overseas</a></li>
+            </ul>
+
+            <h3>My Advice Has Been Featured In:</h3>
+            <img src="https://media.nomadicmatt.com/siteimages/Featured%20Graphic-Seen-In.png"width="500px" alt="">
+        </div>
+        <div class="col-1"></div>
+    </div>
+
+    <!-- books & guides -->
+    <div class="row text-center mb-5">
+        <div class="col">
+            <h1>Books & Guides</h1>
+        </div>
+    </div>
+
+    <!-- Ten years -->
+    <div class="row mb-5">
+        <div class="col-1"></div>
+        <div class="col-7">
+            <h3><a href="">Ten Years a Nomad: A Traveler’s Journey Home</a></h3>
+            <p>The book is a memoir of my ten years traveling and backpacking the world and the lessons I learned from that. It follows the arc of a trip around the globe: getting the bug, the planning, setting off, the highs, the lows, the friendships made, the relationships forged (and lost), the emotions you feel when it's all over.</p>
+
+                <p>my previous books, this is not a “how to guide” but a collection of insights, advice, and stories from the road, conveying the experience of what it's like to quit your job, follow the road not taken, and travel the world trying to discover who you are and what the world has to offer. In short, it is my opus on travel meant, to inspire you to pursue your own dreams.</p>
+
+
+            <a href="" style="color: rgb(19, 201, 242);">Find out more and pick up a copy today!</a>
+        </div>
+        <div class="col-3">
+            <img src="https://media.nomadicmatt.com/siteimages/Cover-Ten-Years-A-Nomad.jpg"width="300px" alt="">
+        </div>
+        <div class="col-1"></div>
+    </div>
+
+    <!-- glob -->
+    <div class="row text-center mb-5">
+        <div class="col">
+            <img src="https://www.nomadicmatt.com/wp-content/themes/nomadicmatt/images/blog_divider_735x40_@2x.png"width="800px" alt="">
+        </div>
+    </div>
+
+    <!-- Destination Guidebooks -->
+    <div id="books" class="row mb-5">
+        <div class="col-1"></div>
+        <div class="col-5">
+            <img src="https://media.nomadicmatt.com/siteimages/NomadicMattGuidebooks.png"width="500px" alt="">
+        </div>
+        <div id="destination" class="col-5">
+            <h3>Destination Guidebooks</h3>
+            <p>I've written a few destination guidebooks that will help you travel cheaper, better, and smarter. Unlike other guidebooks, these are specifically written for budget travelers! They contain detailed tips, advice, and insider information so you can get off the beaten path, away from the crowds, and save money when you travel! Straight to the point, no fluff!</p>
+
+            <a href="" style="color: rgb(24, 154, 230);">Check them out today and get one for your next trip!</a>
+        </div>
+        <div class="col-1"></div>
+    </div>
+
+    <!-- Get my best tips2 -->
+    <div class="row bg-primary mt-5">
+        <div class="col-1"></div>
+        <div class="col-3">
+            <h3>GET MY BEST TIPS SENT STRAIGHT TO YOU!</h3>
+        </div>
+        <div class="col-3">
+            <form class="overlay-form">
+                <div class="form-group ">
+                  <label for="exampleFormControlInput1"></label>
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="First Name">
+                </div>
+              </form>
+        </div>
+        <div class="col-3">
+            <form class="overlay-form">
+                <div class="form-group">
+                  <label for="exampleFormControlInput1"></label>
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Email Address">
+                </div>
+              </form>
+        </div>
+        <div class="col-1">
+            <button type="submit" class="btn btn-success">SEND ME TIPS</button>
+        </div>
+        <div class="col-1"></div>
+    </div>
+
+    <!-- Footer -->
+    <!-- Footer -->
+<footer class="text-center text-lg-start bg-info mb-5 text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <!-- Left -->
+  
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+  
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h5 class="text-uppercase fw-bold mb-4">
+              ABOUT US
+            </h5>
+            <p>
+                About Matt
+                Meet the Team
+                Write for Us
+                Contact Us
+                Copyright
+                Privacy Policy
+            </p>
+          </div>
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h5 class="text-uppercase fw-bold mb-4">
+                TRAVEL TIPS
+            </h5>
+            <p>
+                Start Here
+                Travel Blog
+                Destination Guides
+                Travel Credit Cards
+            </p>
+          </div>
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h5 class="text-uppercase fw-bold mb-4">
+                BOOK YOUR TRIP
+            </h5>
+            <p>
+                Accommodation
+                Cheap Flights
+                Travel Insurance
+                Favorite Hostels
+                Favorite Neighborhoods
+                Favorite Companies
+            </p>
+          </div>
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h5 class="text-uppercase fw-bold mb-4">
+                BOOKS AND COURSES
+            </h5>
+            <p>Ten Years a Nomad
+                Destination Guidebooks
+                Blogging Mentorship
+                Writing Mentorship
+            </p>
+          </div>
+          <div class="col-md-2 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <h5 class="text-uppercase fw-bold mb-4">FOLLOW ME ON THE WEB</h6>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-google"></i>
+                  </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                  <h3>SEARCH</h3>
+                  <form class="overlay-form">
+                    <!-- Your form fields go here -->
+                    <div class="form-group">
+                      <label for="search"></label>
+                      <input type="text" class="form-control" id="search" placeholder="Search the site here">
+                    </div>
+                  </form>
+          </div>
+          <div class="col-1"></div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+        Copyright © 2024 · Nomadic Matt’s Travel Site
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+</body>
+</html>
